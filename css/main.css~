@@ -43,7 +43,7 @@
 	border-radius:15px;
 	font-family: Arial;
 	font-size:220px;
-	padding:20px;
+	padding:25px;
 }
 
 #title spam, .nav spam {
@@ -96,4 +96,29 @@ ul div {
 	color:white;
 	background: rgba(255,255,255,0);
 	text-shadow: 0px 0px 0px rgba(100,100,100,0);
+}
+
+#flisol-logo {
+	margin: 0px 5px -5px 5px;
+	height:30px;
+	width:30px;
+}
+
+table {
+	border-spacing: 5px;
+}
+
+table td {
+	padding: 10px;
+
+}
+
+table p {
+	width:220px;
+	text-align:center;
+}
+
+table h6 {
+	width:100px;
+	text-align:right;
 }
