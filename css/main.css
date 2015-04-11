@@ -136,8 +136,105 @@ table td h6 {
 	vertical-align:center;
 }
 
-th h1 {
+th h1, h1 {
 	font-family: Courrier, serif;
 	font-size: 48px;
 	font-weight: bold;
+}
+
+#historia {
+	width:500px;
+}
+
+#historia spam {
+	display: inline-block;
+    /*-webkit-transform: translateZ(40px);
+    -moz-transform:    translateZ(40px);
+    -ms-transform:     translateZ(40px);
+    -o-transform:      translateZ(40px);
+     transform:        translateZ(40px);
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;*/
+}
+
+#historia p {
+	text-align: justify;
+	font-size: 30px;
+
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
+    -ms-transform-style:     preserve-3d;
+    -o-transform-style:      preserve-3d;
+    transform-style:         preserve-3d;
+}
+
+#historia .position-Up {
+    -webkit-transform: translateY(200px);
+    -moz-transform:    translateY(200px);
+    -ms-transform:     translateY(200px);
+    -o-transform:      translateY(200px);
+    transform:         translateY(200px);
+}
+
+#historia .position-Down {
+    -webkit-transform: translateY(-200px);
+    -moz-transform:    translateY(-200px);
+    -ms-transform:     translateY(-200px);
+    -o-transform:      translateY(-200px);
+    transform:         translateY(-200px);
+}
+
+#historia .position-Right {
+    -webkit-transform: translateX(500px);
+    -moz-transform:    translateX(500px);
+    -ms-transform:     translateX(500px);
+    -o-transform:      translateX(500px);
+    transform:         translateX(500px);
+}
+
+#historia.present .position-Up {
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+#historia.present .position-Down {
+    -webkit-transform: translateY(0px);
+    -moz-transform:    translateY(0px);
+    -ms-transform:     translateY(0px);
+    -o-transform:      translateY(0px);
+    transform:         translateY(0px);
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
+}
+
+
+#historia.present .position-Right {
+    -webkit-transform: translateX(0px);
+    -moz-transform:    translateX(0px);
+    -ms-transform:     translateX(0px);
+    -o-transform:      translateX(0px);
+    transform:         translateX(0px);
+
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;
 }
