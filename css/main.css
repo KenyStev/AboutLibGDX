@@ -106,13 +106,21 @@ ul div {
 
 table {
 	border-spacing: 5px;
-	width:500px;
+	width:600px;
 	height:500px;
 }
 
-table td {
-	padding: 10px;
-	border: 2px dashed blue;
+th {
+	background-color: #1E90FF;
+	color: white;
+	margin:10px;
+	padding:10px;
+}
+
+table, td, th {
+	border: 1px dashed #1E90FF;
+	padding:10px;
+	margin:10px;
 }
 
 table p {
@@ -121,8 +129,15 @@ table p {
 	font-size:25px;
 }
 
-table h6 {
+table td h6 {
 	width:190px;
 	text-align:right;
 	font-size:35px;
+	vertical-align:center;
+}
+
+th h1 {
+	font-family: Courrier, serif;
+	font-size: 48px;
+	font-weight: bold;
 }
