@@ -38,7 +38,7 @@
 	font-size: 18px;
 }
 
-#title {
+#title, #title h1 {
 	background-color: black;/*rgba(104,45,250,0.5);*/
 	border-radius:15px;
 	font-family: Arial;
@@ -57,6 +57,14 @@
 #about-libGDX p {
 	width:890px;
 	font-size:48px;
+}
+
+#autor {
+	font-size:18px;
+	color:white;
+	background-color: blueViolet;
+	border-radius: 7px;
+	font-style:italic;
 }
 
 i {
@@ -143,12 +151,23 @@ th h1, h1 {
 }
 
 #historia {
-	width:500px;
+	width:600px;
+	padding: 10px;
+}
+
+#historia .container {
+	margin: 25px;
+}
+
+#historia, #historia h1 {
+	text-align:center;
+	border: 2px dashed #008080;
+	padding: 10px 20px 10px 20px;
 }
 
 #historia spam {
 	display: inline-block;
-    /*-webkit-transform: translateZ(40px);
+    -webkit-transform: translateZ(40px);
     -moz-transform:    translateZ(40px);
     -ms-transform:     translateZ(40px);
     -o-transform:      translateZ(40px);
@@ -158,12 +177,15 @@ th h1, h1 {
     -moz-transition:    0.5s;
     -ms-transition:     0.5s;
     -o-transition:      0.5s;
-    transition:         0.5s;*/
+    transition:         0.5s;
 }
 
 #historia p {
 	text-align: justify;
 	font-size: 30px;
+	margin-top: 25px;
+	border: 2px dashed #008080;
+	padding: 10px 20px 10px 20px;
 
     -webkit-transform-style: preserve-3d;
     -moz-transform-style:    preserve-3d; /* Y U need this Firefox?! */
@@ -189,11 +211,19 @@ th h1, h1 {
 }
 
 #historia .position-Right {
-    -webkit-transform: translateX(500px);
-    -moz-transform:    translateX(500px);
-    -ms-transform:     translateX(500px);
-    -o-transform:      translateX(500px);
-    transform:         translateX(500px);
+    -webkit-transform: translateX(250px);
+    -moz-transform:    translateX(250px);
+    -ms-transform:     translateX(250px);
+    -o-transform:      translateX(250px);
+    transform:         translateX(250px);
+}
+
+#historia .position-Left {
+    -webkit-transform: translateX(-250px);
+    -moz-transform:    translateX(-250px);
+    -ms-transform:     translateX(-250px);
+    -o-transform:      translateX(-250px);
+    transform:         translateX(-250px);
 }
 
 #historia.present .position-Up {
@@ -203,11 +233,11 @@ th h1, h1 {
     -o-transform:      translateY(0px);
     transform:         translateY(0px);
 
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition:    1.5s;
+    -ms-transition:     1.5s;
+    -o-transition:      1.5s;
+    transition:         1.5s;
 }
 
 #historia.present .position-Down {
@@ -217,11 +247,11 @@ th h1, h1 {
     -o-transform:      translateY(0px);
     transform:         translateY(0px);
 
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -webkit-transition: 1.5s;
+    -moz-transition:    1.5s;
+    -ms-transition:     1.5s;
+    -o-transition:      1.5s;
+    transition:         1.5s;
 }
 
 
@@ -231,7 +261,32 @@ th h1, h1 {
     -ms-transform:     translateX(0px);
     -o-transform:      translateX(0px);
     transform:         translateX(0px);
+/*
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;*/
+}
 
+#historia.present .position-Left {
+    -webkit-transform: translateX(0px);
+    -moz-transform:    translateX(0px);
+    -ms-transform:     translateX(0px);
+    -o-transform:      translateX(0px);
+    transform:         translateX(0px);
+/*
+    -webkit-transition: 0.5s;
+    -moz-transition:    0.5s;
+    -ms-transition:     0.5s;
+    -o-transition:      0.5s;
+    transition:         0.5s;*/
+}
+
+#historia.present .position-Up
+#historia.present .position-Down,
+#historia.present .position-Right,
+#historia.present .position-Left{
     -webkit-transition: 0.5s;
     -moz-transition:    0.5s;
     -ms-transition:     0.5s;
