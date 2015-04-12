@@ -181,7 +181,7 @@ th h1, h1 {
 }
 
 #historia p {
-	text-align: justify;
+	text-align: center;
 	font-size: 30px;
 	margin-top: 25px;
 	border: 2px dashed #008080;
@@ -287,9 +287,9 @@ th h1, h1 {
 #historia.present .position-Down,
 #historia.present .position-Right,
 #historia.present .position-Left{
-    -webkit-transition: 0.5s;
-    -moz-transition:    0.5s;
-    -ms-transition:     0.5s;
-    -o-transition:      0.5s;
-    transition:         0.5s;
+    -webkit-transition: 02s;
+    -moz-transition:    02s;
+    -ms-transition:     02s;
+    -o-transition:      02s;
+    transition:         02s;
 }
